@@ -1,0 +1,213 @@
+/* ---------- General ---------- */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+
+/* ---------- Top Header ---------- */
+
+.top-bar {
+    background-color: rgba(166, 70, 18, 0.819);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 60px;
+}
+
+.brand h1 {
+    margin: 0;
+    color: #faf855;
+    font-size: 36px;
+}
+
+.brand p {
+    margin: 5px 0 0;
+    color: white;
+    font-size: 15px;
+}
+
+
+/* ---------- Header Links ---------- */
+
+.header-links {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.header-links a {
+    color: #faf855;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* ---------- Navigation ---------- */
+
+nav {
+    background-color: rgba(166, 70, 18, 0.819);
+
+    display: flex;
+    justify-content: center;
+
+    padding: 15px;
+    gap: 30px;
+}
+
+nav a {
+    color: #faf855;
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ---------- Hero ---------- */
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+
+    background-color: #fffbea;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: rgba(166, 70, 18, 0.819);
+}
+
+.hero p {
+    max-width: 650px;
+    margin: 0 auto 30px;
+
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+/* ---------- Button ---------- */
+
+.button {
+    display: inline-block;
+
+    background-color: #faf855;
+    color: rgba(166, 70, 18, 0.819);
+
+    padding: 14px 28px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #e8e846;
+}
+
+
+/* ---------- Mission ---------- */
+
+.mission-preview {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.mission-preview h2 {
+    font-size: 34px;
+    color: rgba(166, 70, 18, 0.819);
+}
+
+.mission-preview p {
+    max-width: 650px;
+    margin: 0 auto 20px;
+
+    line-height: 1.6;
+}
+
+.mission-preview a {
+    color: rgba(166, 70, 18, 0.819);
+    font-weight: bold;
+}
+
+
+/* ---------- Footer ---------- */
+
+footer {
+    background-color: rgba(166, 70, 18, 0.819);
+    color: #faf855;
+
+    text-align: center;
+    padding: 25px;
+}
+
+.hero img {
+    display: block;
+    width: 600px;
+    max-width: 90%;
+    margin: 30px auto 0;
+    border-radius: 10px;
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 600px) {
+
+    .top-bar {
+        padding: 15px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .brand h1 {
+        font-size: 28px;
+    }
+
+    .header-links {
+        margin-top: 15px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 12px;
+    }
+
+    nav a {
+        margin-right: 0;
+        font-size: 15px;
+    }
+
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero h2 {
+        font-size: 34px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 600px;
+    }
+
+}
