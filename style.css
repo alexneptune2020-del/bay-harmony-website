@@ -19,6 +19,12 @@ body {
     padding: 20px 60px;
 }
 
+.brand a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 .brand h1 {
     margin: 0;
     color: #faf855;
@@ -164,6 +170,209 @@ footer {
     border-radius: 10px;
 }
 
+/* ---------- About Page ---------- */
+
+.about-hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #fffbea;
+}
+
+.about-hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: rgba(166, 70, 18, 0.819);
+}
+
+.about-hero p {
+    max-width: 700px;
+    margin: 0 auto;
+
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+/* ---------- About Sections ---------- */
+
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: rgba(166, 70, 18, 0.819);
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* ---------- Values ---------- */
+
+.about-values {
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #fffbea;
+}
+
+.about-values h2 {
+    font-size: 34px;
+    margin-bottom: 40px;
+    color: rgba(166, 70, 18, 0.819);
+}
+
+.values {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.value {
+    flex: 1;
+    padding: 30px 25px;
+
+    background-color: white;
+
+    border-radius: 10px;
+}
+
+.value h3 {
+    margin-top: 0;
+    font-size: 23px;
+    color: rgba(166, 70, 18, 0.819);
+}
+
+.value p {
+    line-height: 1.6;
+}
+
+
+/* ---------- About Call To Action ---------- */
+
+.about-action {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.about-action h2 {
+    font-size: 34px;
+    color: rgba(166, 70, 18, 0.819);
+}
+
+.about-action p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* ---------- Contact Page ---------- */
+
+.contact-hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #fffbea;
+}
+
+.contact-hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: rgba(166, 70, 18, 0.819);
+}
+
+.contact-hero p {
+    max-width: 700px;
+    margin: 0 auto;
+
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+/* ---------- Contact Information ---------- */
+
+.contact-section {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.contact-section h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: rgba(166, 70, 18, 0.819);
+}
+
+.contact-section > p {
+    max-width: 650px;
+    margin: 0 auto 40px;
+
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-item {
+    flex: 1;
+
+    padding: 30px 25px;
+
+    background-color: #fffbea;
+    border-radius: 10px;
+}
+
+.contact-item h3 {
+    margin-top: 0;
+
+    font-size: 23px;
+    color: rgba(166, 70, 18, 0.819);
+}
+
+.contact-item p {
+    line-height: 1.6;
+}
+
+
+/* ---------- Contact Action ---------- */
+
+.contact-action {
+    text-align: center;
+    padding: 80px 20px;
+
+    background-color: #fffbea;
+}
+
+.contact-action h2 {
+    font-size: 34px;
+    color: rgba(166, 70, 18, 0.819);
+}
+
+.contact-action p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 /* ---------- Mobile ---------- */
 
 @media (max-width: 600px) {
@@ -208,6 +417,72 @@ footer {
     .hero img {
         width: 100%;
         max-width: 600px;
+    }
+
+        .about-hero {
+        padding: 60px 15px;
+    }
+
+    .about-hero h2 {
+        font-size: 34px;
+    }
+
+    .about-hero p {
+        font-size: 17px;
+    }
+
+    .about-section {
+        padding: 50px 20px;
+    }
+
+    .about-section h2 {
+        font-size: 30px;
+    }
+
+    .values {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .value {
+        padding: 25px 20px;
+    }
+
+    .about-action {
+        padding: 60px 20px;
+    }
+
+        .contact-hero {
+        padding: 60px 15px;
+    }
+
+    .contact-hero h2 {
+        font-size: 34px;
+    }
+
+    .contact-hero p {
+        font-size: 17px;
+    }
+
+    .contact-section {
+        padding: 50px 20px;
+    }
+
+    .contact-section h2 {
+        font-size: 30px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-item {
+        padding: 25px 20px;
+    }
+
+    .contact-action {
+        padding: 60px 20px;
     }
 
 }
