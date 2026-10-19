@@ -670,3 +670,45 @@ footer {
     .events-hero {
         padding: 40px 22px 25px;
     }
+
+    .events-hero h2 {
+        font-size: 34px;
+    }
+
+    .events-hero p {
+        font-size: 17px;
+    }
+
+    .event-section {
+        padding: 15px 22px 35px;
+    }
+
+    .event-card {
+        padding: 22px 0;
+    }
+
+    .event-card h2 {
+        font-size: 24px;
+    }
+
+    .event-card p {
+        font-size: 16px;
+    }
+
+    .events-contact {
+        padding: 35px 22px 50px;
+    }
+
+    .home-events-preview {
+        padding: 50px 20px;
+    }
+
+    .home-events-preview h2 {
+        font-size: 30px;
+    }
+
+    .home-event h3 {
+        font-size: 20px;
+    }
+
+}
