@@ -72,7 +72,6 @@ nav {
 nav a {
     color: #faf855;
     text-decoration: none;
-    margin-right: 25px;
     font-weight: bold;
     font-size: 17px;
 }
@@ -127,29 +126,6 @@ nav a:hover {
 }
 
 
-/* ---------- Mission ---------- */
-
-.mission-preview {
-    text-align: center;
-    padding: 70px 20px;
-}
-
-.mission-preview h2 {
-    font-size: 34px;
-    color: rgba(166, 70, 18, 0.819);
-}
-
-.mission-preview p {
-    max-width: 650px;
-    margin: 0 auto 20px;
-
-    line-height: 1.6;
-}
-
-.mission-preview a {
-    color: rgba(166, 70, 18, 0.819);
-    font-weight: bold;
-}
 
 
 /* ---------- Footer ---------- */
@@ -374,13 +350,15 @@ footer {
 }
 
 /* ---------- Programs Page ---------- */
-
 .programs-hero {
+    padding: 60px 25px 35px;
+    background-color: #fffbea;
+}
+
+.programs-hero-content {
     max-width: 800px;
     margin: 0 auto;
-    padding: 60px 25px 35px;
     text-align: left;
-    background-color: #fffbea;
 }
 
 .programs-hero h2 {
@@ -424,13 +402,15 @@ footer {
 
 
 /* ---------- Events Page ---------- */
-
 .events-hero {
+    padding: 60px 25px 35px;
+    background-color: #fffbea;
+}
+
+.events-hero-content {
     max-width: 800px;
     margin: 0 auto;
-    padding: 60px 25px 35px;
     text-align: left;
-    background-color: #fffbea;
 }
 
 .events-hero h2 {
@@ -445,7 +425,6 @@ footer {
     line-height: 1.6;
     margin: 0;
 }
-
 /* ---------- Event Details ---------- */
 
 .event-section {
@@ -499,6 +478,53 @@ footer {
     margin-bottom: 20px;
 }
 
+/* ---------- Home Page Events ---------- */
+
+.home-events-preview {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.home-events-preview h2 {
+    font-size: 34px;
+    color: rgba(166, 70, 18, 0.819);
+}
+
+.home-events-preview > a {
+    color: rgba(166, 70, 18, 0.819);
+    font-weight: bold;
+}
+
+.home-events {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.home-event {
+    padding: 22px 0;
+    border-bottom: 1px solid #ddd0c5;
+}
+
+.home-event h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: rgba(166, 70, 18, 0.819);
+    font-size: 22px;
+}
+
+.home-event p {
+    line-height: 1.6;
+    margin: 0 0 12px;
+}
+
+.home-event .event-date {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
 
 /* ---------- Mobile ---------- */
@@ -526,7 +552,6 @@ footer {
     }
 
     nav a {
-        margin-right: 0;
         font-size: 15px;
     }
 
@@ -639,10 +664,9 @@ footer {
     .program-section p {
         font-size: 16px;
     }
-}
+
 /* ---------- Events Mobile Layout ---------- */
 
-@media (max-width: 600px) {
     .events-hero {
         padding: 40px 22px 25px;
     }
@@ -674,4 +698,17 @@ footer {
     .events-contact {
         padding: 35px 22px 50px;
     }
+
+    .home-events-preview {
+        padding: 50px 20px;
+    }
+
+    .home-events-preview h2 {
+        font-size: 30px;
+    }
+
+    .home-event h3 {
+        font-size: 20px;
+    }
+
 }
