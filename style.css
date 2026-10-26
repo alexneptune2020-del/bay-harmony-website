@@ -19,24 +19,32 @@ body {
     padding: 20px 60px;
 }
 
-.brand a {
+.brand-link {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between logo and name */
     text-decoration: none;
     color: inherit;
 }
 
-
-.brand h1 {
-    margin: 0;
-    color: #faf855;
-    font-size: 36px;
+.site-logo {
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
-.brand p {
-    margin: 5px 0 0;
+.brand-text h1 {
+    margin: 0;
+    color: #faf855;
+    font-size: 34px;
+}
+
+.brand-text p {
+    margin: 6px 0 0;
     color: white;
     font-size: 15px;
 }
-
 
 /* ---------- Header Links ---------- */
 
@@ -61,12 +69,12 @@ body {
 
 nav {
     background-color: rgba(166, 70, 18, 0.819);
-
     display: flex;
     justify-content: center;
-
-    padding: 15px;
-    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 18px 25px;
+    gap: 45px;
 }
 
 nav a {
@@ -74,6 +82,11 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: 17px;
+    padding: 5px 0;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 nav a:hover {
@@ -710,5 +723,21 @@ footer {
     .home-event h3 {
         font-size: 20px;
     }
+    .brand-link {
+    flex-direction: column;
+    gap: 10px;
+    }
 
+    .site-logo {
+        width: 65px;
+        height: 65px;
+    }
+
+    .brand-text h1 {
+        font-size: 26px;
+    }
+
+    .brand-text p {
+        font-size: 14px;
+    }
 }
