@@ -1,0 +1,8 @@
+images folder: static images on website
+about.html: about page
+contact.html: contact page
+donate.html: donate page
+events.html: events page
+index.html: index page
+program.html : program page
+style.css: global styling for website
